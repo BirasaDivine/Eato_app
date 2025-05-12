@@ -1,58 +1,69 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# 🍽️ Eato App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Eato App is a modern web-based **food delivery application** that connects users with local restaurants, allowing them to browse menus, place orders, and receive deliveries seamlessly.
 
-Currently, two official plugins are available:
+> 🧪 This project is both a learning journey in full-stack development and a real-world deployment hosted on [Vercel](https://vercel.com/birasadivines-projects/eato-app).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+👉 [View Deployed App on Vercel](https://vercel.com/birasadivines-projects/eato-app)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: [React](https://react.dev/)
+- **Bundler**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Language**: TypeScript
+- **Code Quality Tools**: ESLint, Prettier
+
+---
+
+## 📦 Getting Started Locally
+
+Follow these instructions to run Eato App on your local machine:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/BirasaDivine/Eato_app.git
+cd Eato_app
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Install Dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm install
 ```
-=======
-# Eato_app
->>>>>>> 998ef36c72b4e5e3c0e63905320217ff213e33a3
+
+3. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open your browser and navigate to http://localhost:5173.
+
+```
+
+🧩 VSCode Workspace Settings
+This project includes .vscode configuration to ensure consistent development across all environments.
+
+Required Extensions
+Upon opening the project in VSCode, you will be prompted to install recommended extensions:
+
+ESLint
+
+Prettier - Code Formatter
+
+Format & Lint Settings:
+You can find them pre-configured in .vscode/settings.json:
+📄 License
+This project is for educational purposes and personal development. Commercial use is not permitted without permission.
+
+👩🏽‍💻 Author
+Built with ❤️ by Divine Laura Birasa
+```
